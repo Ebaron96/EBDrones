@@ -1,6 +1,18 @@
 body {
   font-family: sans-serif;
-  padding: 2rem;
   background-color: #f9f9f9;
   color: #333;
+  padding: 2rem;
 }
+
+header, footer {
+  text-align: center;
+  background-color: #e1e1e1;
+  padding: 1rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
