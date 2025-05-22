@@ -19,14 +19,14 @@ body {
   margin: auto;
 }
 
-/* Modern Header Layout */
+/* Header */
 header {
   background: #222;
   color: #fff;
   padding: 1.2rem 0;
+  position: relative;
 }
-.header-container,
-.header-flex {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,18 +40,27 @@ header {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  margin: 0;
 }
 .tagline {
   font-size: 0.95rem;
   font-style: italic;
   color: #ccc;
-  margin: 0;
+}
+
+/* Menu Toggle Button (Hamburger) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
 }
 
 /* Navigation */
 nav {
   margin-top: 0.5rem;
+  width: 100%;
 }
 .nav-list {
   list-style: none;
@@ -188,13 +197,26 @@ footer {
   .hero-content p {
     font-size: 1.1rem;
   }
-  .header-flex {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background: #222;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .header-container {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-  }
-  .nav-list {
-    flex-direction: column;
-    align-items: flex-start;
   }
 }
