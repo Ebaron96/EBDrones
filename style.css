@@ -59,7 +59,7 @@ nav {
 /* Hero Section */
 #hero {
   position: relative;
-  background: url('rocketBooster.png') center center/cover no-repeat;
+  background: url('constructionAbove.png') center center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
