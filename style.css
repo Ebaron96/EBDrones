@@ -57,6 +57,43 @@ header {
   cursor: pointer;
 }
 
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    z-index: 1001;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .nav-list {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #222;
+  padding: 1rem 2rem;
+  z-index: 9999; /* Make sure this is above hero, overlays, etc. */
+}
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .header-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 /* Navigation */
 nav {
   margin-top: 0.5rem;
@@ -187,42 +224,5 @@ footer {
   text-align: center;
   padding: 1rem 0;
   font-size: 0.9rem;
-}
-
-/* Responsive Tweaks */
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-    position: absolute;
-    top: 1.2rem;
-    right: 1.2rem;
-    z-index: 1001;
-  }
-
-  nav {
-    width: 100%;
-  }
-
-  .nav-list {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: #222;
-    padding: 1rem 2rem;
-    z-index: 1000;
-  }
-
-  .nav-list.active {
-    display: flex;
-  }
-
-  .header-container {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
 }
 
