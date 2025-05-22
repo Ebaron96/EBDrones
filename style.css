@@ -63,7 +63,7 @@ nav {
   height: 80vh;
   display: flex;
   align-items: center;
-  color: #db1414;
+  color: #fff
 }
 .hero-overlay {
   background: rgba(0, 0, 0, 0.5);
