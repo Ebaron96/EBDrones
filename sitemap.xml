@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ebaron96.github.io/EBdrones/</loc>
-    <lastmod>2025-05-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ebaron96.github.io/EBdrones/about.html</loc>
-    <lastmod>2025-05-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ebaron96.github.io/EBdrones/portfolio.html</loc>
-    <lastmod>2025-05-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ebaron96.github.io/EBdrones/services.html</loc>
-    <lastmod>2025-05-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ebaron96.github.io/EBdrones/contact.html</loc>
-    <lastmod>2025-05-22</lastmod>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://ebdrones.com/</loc>
+  <lastmod>2025-05-22T18:05:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ebdrones.com/portfolio/</loc>
+  <lastmod>2025-05-22T18:05:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebdrones.com/services/</loc>
+  <lastmod>2025-05-22T18:05:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebdrones.com/about/</loc>
+  <lastmod>2025-05-22T18:05:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ebdrones.com/contact/</loc>
+  <lastmod>2025-05-22T18:05:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
