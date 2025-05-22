@@ -19,26 +19,37 @@ body {
   margin: auto;
 }
 
-/* Header */
+/* Modern Header Layout */
 header {
   background: #222;
   color: #fff;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
 }
-.header-container {
+.header-container,
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.brand {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 5px;
 }
-header .logo {
-  font-size: 2rem;
+.logo {
+  font-size: 1.8rem;
   font-weight: bold;
+  margin: 0;
 }
-header .tagline {
+.tagline {
+  font-size: 0.95rem;
   font-style: italic;
   color: #ccc;
-  margin: 0.25rem 0 1rem;
+  margin: 0;
 }
+
+/* Navigation */
 nav {
   margin-top: 0.5rem;
 }
@@ -46,14 +57,18 @@ nav {
   list-style: none;
   display: flex;
   gap: 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 .nav-list li a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.2s ease;
 }
 .nav-list li a:hover {
-  text-decoration: underline;
+  color: #e67e22;
+  text-decoration: none;
 }
 
 /* Hero Section */
@@ -63,7 +78,7 @@ nav {
   height: 80vh;
   display: flex;
   align-items: center;
-  color: #fff
+  color: #fff;
 }
 .hero-overlay {
   background: rgba(0, 0, 0, 0.5);
@@ -172,5 +187,14 @@ footer {
   }
   .hero-content p {
     font-size: 1.1rem;
+  }
+  .header-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
