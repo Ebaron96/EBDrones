@@ -220,6 +220,41 @@ nav {
   text-decoration: underline;
 }
 
+/* ========================
+   404 Page Styling
+   ======================== */
+.page-404 {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.page-404 h1 {
+  font-size: 3rem;
+  color: #e67e22;
+  margin-bottom: 1rem;
+}
+
+.page-404 p {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.page-404 .cta-button {
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.page-404 .cta-button:hover {
+  background-color: #cf600a;
+}
+
 /* Footer */
 footer {
   background: #222;
